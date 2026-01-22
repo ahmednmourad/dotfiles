@@ -133,11 +133,8 @@ alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
 alt-shift-semicolon = 'mode service'
 
-# Open Search (Spotlight)
-alt-d = 'exec-and-forget open -a Spotlight'
-
 # Close focused window
-alt-shift-q = 'close'
+alt-shift-q = "exec-and-forget osascript -e 'tell application (path to frontmost application as text) to quit'"
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
