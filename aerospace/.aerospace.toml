@@ -161,3 +161,7 @@ run = "move-node-to-workspace 1"
 [[on-window-detected]]
 if.app-id = 'com.apple.Terminal'
 run = "move-node-to-workspace 2"
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+run = "move-node-to-workspace 3"
