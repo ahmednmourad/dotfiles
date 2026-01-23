@@ -226,7 +226,7 @@ bar {
 bindsym $mod+shift+x exec i3lock -c 282a36
 
 
-exec_always feh --bg-fill /home/ahmad-mourad/Pictures/Wallpapers/ubuntu-cat.jpg
+exec_always feh --bg-fill ~/Pictures/Wallpapers/ubuntu-cat.jpg
 bindsym Print exec "flameshot gui"
 
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl --min-val=2 -q set 3%-
