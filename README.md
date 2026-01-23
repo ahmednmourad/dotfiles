@@ -16,7 +16,7 @@ brew install stow      # macOS
 1. Clone with submodules:
 
 ```bash
-git clone --recurse-submodules <repo-url>
+git clone --recurse-submodules https://github.com/ahmednmourad/dotfiles.git
 ```
 
 Or if already cloned:
