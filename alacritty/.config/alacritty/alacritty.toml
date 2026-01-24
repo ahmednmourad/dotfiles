@@ -5,3 +5,6 @@ import = [
 
 [selection]
 save_to_clipboard = true
+
+[font]
+size = 16.0
