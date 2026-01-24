@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Created by `pipx` on 2025-01-25 19:28:54
-export PATH="$PATH:/home/ahmad-mourad/.local/bin"
+export PATH="$PATH:~/.local/bin"
 
 function clear_screen() {
     clear
@@ -113,10 +113,6 @@ function clear_screen() {
 
 zle -N clear_screen
 bindkey '^L' clear_screen
-
-. "$HOME/snap/code/current/.local/share/../bin/env"
-
-PATH=~/.console-ninja/.bin:$PATH
 
 # prompt_context() {
 #  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
